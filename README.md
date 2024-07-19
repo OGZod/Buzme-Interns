@@ -1,16 +1,15 @@
-# bumze_internship_exercise
+# To run this project run the following in your terminal(navigate to preferred directory):
+git clone https://github.com/OGZod/Buzme-Interns.git
+flutter pub get
 
-A new Flutter project.
+## Create your own branch:
+git checkout -b new-branch-name
 
-## Getting Started
+## Push to your own branch:
+git add .
+git commit -m "Your commit message"
+git push -u origin new-branch-name //The -u flag sets up tracking, so in the future you can simply use git push on this branch.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## To check if you are up to date:
+git fetch
+git pull origin master(default-branch name)
